@@ -1,0 +1,191 @@
+/* 您原有的樣式 */
+p {
+    color: #6c757d
+    
+}
+
+a.iconlink {
+    color: black;
+    background-color: rgb(255, 254, 203);
+    border: 2px solid black;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 20px ;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a.iconlink:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(226, 186, 6);
+    transform: scale(1.1);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+div.grey {
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    border-radius: 15px;
+    margin: 10px 0;
+    box-shadow: 0 4px 20px rgba(153, 50, 204, 0.3);
+}
+
+.navbar-brand img:hover {
+    transform: scale(1.05);
+    border-color: rgba(255, 255, 255, 0.4);
+}
+
+/* 工作/學習經歷卡片 */
+.d-flex.flex-column.flex-md-row {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.9), rgba(248, 249, 250, 0.9));
+    padding: 25px;
+    border-radius: 15px;
+    margin-bottom: 25px !important;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.08);
+    border: 1px solid rgba(44, 40, 40, 0.2);
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.d-flex.flex-column.flex-md-row:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+/* 技能圖標美化 */
+.dev-icons {
+    margin-bottom: 30px;
+}
+
+.dev-icons li {
+    margin: 10px;
+    transition: all 0.3s ease;
+}
+
+.dev-icons i {
+    font-size: 3rem;
+    color: #6c757d;
+    transition: all 0.3s ease;
+}
+
+.dev-icons li:hover i {
+    color: #4c63d2;
+    transform: scale(1.2) rotate(5deg);
+}
+
+/* 技能列表美化 */
+.fa-ul li {
+    background: rgba(76, 99, 210, 0.05);
+    padding: 10px 15px;
+    margin: 8px 0;
+    border-radius: 8px;
+    border-left: 3px solid #4c63d2;
+    transition: all 0.3s ease;
+}
+
+.fa-ul li:hover {
+    background: rgba(76, 99, 210, 0.1);
+    transform: translateX(5px);
+}
+
+/* 社交媒體圖標美化 */
+.social-icons {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.social-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    border-radius: 50%;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+    position: relative;
+    overflow: hidden;
+}
+
+.social-icon::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+    transition: all 0.5s;
+}
+
+.social-icon:hover::before {
+    left: 100%;
+}
+
+.social-icon:hover {
+    transform: translateY(-3px) scale(1.1);
+    box-shadow: 0 8px 25px rgba(102, 126, 234, 0.4);
+    color: white;
+}
+
+.text-primary {
+    background: linear-gradient(135deg, #4c63d2, #764ba2);
+    color: white !important;
+    padding: 8px 16px;
+    border-radius: 20px;
+}
+
+
+/* 聯絡信息標題 */
+#awards h3 {
+    color: #4c63d2;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+
+.resume-section-content img{
+    width: 480px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.bg{
+    background-image: url('../assets/img/background.jpg');
+}
+
+#interests h3{
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+.gulogo {
+    color: aqua; 
+}
+
+
+.gulogo:hover {
+    opacity: 0.6;
+    transition: opacity 0.3s ease;
+}
